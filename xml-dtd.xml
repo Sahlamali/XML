@@ -1,0 +1,66 @@
+<?xml version = "1.0"?>
+<!DOCTYPE studInfo[
+<!ELEMENT studInfo ( studentId,name,phone,email,dateOfBirth )>
+<!ELEMENT studentId ( #PCDATA )>
+<!ELEMENT name ( #PCDATA )>
+<!ELEMENT phone ( #PCDATA )>
+<!ELEMENT email ( #PCDATA )>
+<!ELEMENT dateOfBirth ( #PCDATA )>
+]>
+<studInfo>
+
+  <student id="123">
+  <name>Qwerty
+  </name>
+  <phone>999999999
+  </phone>
+  <email>asdf@gmail.com
+  </email>
+  <dateOfBirth>26/04/1999
+  </dateOfBirth>
+  </student>
+  
+  <student id="124">
+  <name>AAAAA
+  </name>
+  <phone>999999998
+  </phone>
+  <email>asdf1@gmail.com
+  </email>
+  <dateOfBirth>26/05/1999
+  </dateOfBirth>
+  </student>
+  
+  <student id="125">
+  <name>BBBBB
+  </name>
+  <phone>999999997
+  </phone>
+  <email>asdf2@gmail.com
+  </email>
+  <dateOfBirth>26/06/1999
+  </dateOfBirth>
+  </student>
+  
+  <student id="126">
+  <name>CCCCCC
+  </name>
+  <phone>999999996
+  </phone>
+  <email>asdf3@gmail.com
+  </email>
+  <dateOfBirth>26/07/1999
+  </dateOfBirth>
+  </student>
+  
+  <student id="127">
+  <name>DDDDDD
+  </name>
+  <phone>999999995
+  </phone>
+  <email>asdf@4gmail.com
+  </email>
+  <dateOfBirth>26/08/1999
+  </dateOfBirth>
+  </student>
+</studInfo>
